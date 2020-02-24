@@ -1,2 +1,6 @@
 # WebApp
-Homepage for Meteobridge nano SD / pro which acts like an App
+Homepage Template for Meteobridge nano SD and pro whith the look&feel of an App.
+
+Watch it live at http://www-wetter-neckargemuend.de
+
+Available in German, only.
