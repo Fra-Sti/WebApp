@@ -1,8 +1,0 @@
-Meteobridge weather report#\
-[DD]/[MM]/[YYYY] [hh]:[mm]:00\n
-Last month:
-Temp: [th0temp-avg@M1.1:--] °C
-Rain: [rain0total-sum@M1.0:--] mm
-Sun:  [sol0rad-avg@M1.0:--] W/m2
-\n
-#if#{*[M]==3||[M]==6||[M]=9||[M]==12*}#then#Last season:\nTemp: {*([th0temp-avg@M3.1:0]+[th0temp-avg@M2.1:0]+[th0temp-avg@M1.1:0])/3*1} °C\nRain: {*[rain0total-sum@M3.0:0]+[rain0total-sum@M2.0:0]+[rain0total-sum@M1.0:0]*t} mm\nSun:  {*([sol0rad-avg@M3.0:0]+[sol0rad-avg@M2.0:0]+[sol0rad-avg@M1.0:0])/3*t} W/m2#else##fi#
